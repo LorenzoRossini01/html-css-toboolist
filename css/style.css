@@ -82,3 +82,64 @@ body{
 .interaction-text{
     vertical-align: middle;
 }
+
+.main-container2{
+    background-color: white;
+    width: 60%;
+    min-height: 500px;
+    margin: auto;
+    margin-top: 2px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding-bottom: 100px;
+}
+
+.content-container{
+    margin: 0 75px;
+}
+
+.list-title{
+    padding-top: 50px;
+}
+
+
+.check{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    color: #72C6B2;
+    border: 2px solid #72C6B2;
+    border-radius: 50%;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.wrong{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    color: #c67272;
+    border: 2px solid #c67272;
+    border-radius: 50%;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.list-item{
+    margin-top: 20px;
+    vertical-align: middle;
+    list-style: none;
+    line-height: 20px;
+}
+
+.badge{
+    background-color: #000000;
+    padding: 5px 10px;
+    border-radius: 12px;
+    color: white;
+    margin-left: 7px;
+}
