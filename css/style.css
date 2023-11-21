@@ -105,28 +105,28 @@ body{
 
 .check{
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     color: #72C6B2;
     border: 2px solid #72C6B2;
     border-radius: 50%;
     text-align: center;
-    font-size: small;
     font-weight: bold;
     margin-right: 10px;
+    line-height: 40px;
 }
 
 .wrong{
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     color: #c67272;
     border: 2px solid #c67272;
     border-radius: 50%;
     text-align: center;
-    font-size: small;
     font-weight: bold;
     margin-right: 10px;
+    line-height: 40px;
 }
 
 .list-item{
