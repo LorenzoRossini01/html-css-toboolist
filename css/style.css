@@ -30,16 +30,31 @@ body{
     background-color: white;
 }
 
-/* MAIN INTERACTION */
-.main-container1{
+/* CONTAINER */
+
+.main-container{
     background-color: white;
     width: 70%;
     margin: auto;
+
+}
+
+.container1{
     margin-top: 50px;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
 }
 
+.container2{
+    margin: auto;
+    margin-top: 5px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+/* BUTTON */
 .interact-button{
     display: inline-block;
     background-color: red;
@@ -73,8 +88,8 @@ body{
     color: white;
 }
 
+
 .main-header{
-    margin-left: 75px;
     padding-top: 10px;
     line-height: 100px;
 }
@@ -83,87 +98,76 @@ body{
     vertical-align: middle;
 }
 
-.main-container2{
-    background-color: white;
-    width: 70%;
-    min-height: 500px;
-    margin: auto;
-    margin-top: 5px;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    padding-bottom: 100px;
+/*  MARGIN CONTAINER */
+.margin-container{
+    margin-left: 75px;
 }
 
-.content-container{
-    margin: 0 75px;
-}
-
+/* ACTIVITY LIST */
 .list-title{
     padding-top: 50px;
 }
 
+    /* CHECK & X */
+    .border-activity{
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 2px solid;
+        text-align: center;
+        font-weight: bold;
+        margin-right: 10px;
+        line-height: 40px;
+    }
 
-.check{
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    color: #72C6B2;
-    border: 2px solid #72C6B2;
-    border-radius: 50%;
-    text-align: center;
-    font-weight: bold;
-    margin-right: 10px;
-    line-height: 40px;
-}
+    .check{
+        color: #72C6B2;
+        border-color: #72C6B2;
+    }
 
-.wrong{
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    color: #c67272;
-    border: 2px solid #c67272;
-    border-radius: 50%;
-    text-align: center;
-    font-weight: bold;
-    margin-right: 10px;
-    line-height: 40px;
-}
+    .wrong{
+        color: #c67272;
+        border-color:#c67272;
+    }
 
-.list-item{
-    margin-top: 40px;
-    vertical-align: middle;
-    list-style: none;
-    line-height: 20px;
-    font-size: 1.5rem;
-}
+    /* TEXT STYLE */
+    .list-item{
+        margin-top: 40px;
+        vertical-align: middle;
+        list-style: none;
+        line-height: 20px;
+        font-size: 1.5rem;
+    }
 
-.badge{
-    background-color: #000000;
-    padding: 7px 15px;
-    border-radius: 15px;
-    color: white;
-    margin-left: 7px;
-    font-size: 1rem;
-}
+    /* BADGE */
+    .badge{
+        background-color: #000000;
+        padding: 7px 15px;
+        border-radius: 15px;
+        color: white;
+        margin-left: 7px;
+        font-size: 1rem;
+    }
 
-.editorial{
-    background-color: #45ABEA;
-}
+    .editorial{
+        background-color: #45ABEA;
+    }
 
-.q1-goals{
-    background-color: #9C72E4;
-}
+    .q1-goals{
+        background-color: #9C72E4;
+    }
 
-.recruiting{
-    background-color: #64C0A9;
-}
+    .recruiting{
+        background-color: #64C0A9;
+    }
 
-.mobile{
-    background-color: #F29E33;
-}
-.website{
-    background-color: #D863A1;
-}
-.sales{
-    background-color: #B0C926;
-}
+    .mobile{
+        background-color: #F29E33;
+    }
+    .website{
+        background-color: #D863A1;
+    }
+    .sales{
+        background-color: #B0C926;
+    }
